@@ -1,0 +1,121 @@
+/* Estilos para el Dashboard */
+.dashboard-container {
+    background-color: #f4970cfb;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.user-info {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #f4970cfb;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #4285f4;
+}
+
+.btn-secondary {
+    background-color: #34a853;
+}
+
+.dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.dashboard-table {
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto;
+    background-color: #f4970cfb; /* Cambia el color de fondo de la tabla */
+    padding: 20px; /* Espaciado interno para separar del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Margen superior */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: #f4970cfb; /* Color de fondo naranja para las celdas */
+    color: white; /* Color del texto en las celdas */
+}
+
+.table th {
+    background-color: #f4970cfb;
+    color: white;
+}
+
+.table td {
+    background-color: rgba(21, 167, 18, 0.829);
+}
+
+.product-image {
+    width: 50px;
+    height: auto;
+}
+
+/* Botones dentro de la tabla */
+.btn-warning {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
